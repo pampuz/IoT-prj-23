@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-prj-23
+  host: IoT-prj-23
+  disk_quota: 1024M
+  services:
+  - IoT-prj-23-cloudantNoSQLDB
+  - IoT-prj-23-iotf-service
